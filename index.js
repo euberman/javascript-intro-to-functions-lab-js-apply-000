@@ -6,10 +6,15 @@ function whisper(string) {
   return string.toLowerCase();
 }
 
-function shout(string) {
-  return string.toUpperCase();
+function logShout(string) {
+  console.log(shout);
 }
 
-function whisper(string) {
-  return string.toLowerCase();
+function logWhisper(string) {
+  console.log(whisper);
+}
+
+function sayHiToGrandma(string) {
+  
+  return string.toUpperCase();
 }
