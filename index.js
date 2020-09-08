@@ -26,5 +26,4 @@ function sayHiToGrandma(string) {
       console.log('Grandma might be gone.')
       break;
   }
-  return string.toUpperCase();
 }
