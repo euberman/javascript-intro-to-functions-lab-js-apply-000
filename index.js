@@ -15,13 +15,12 @@ function logWhisper(string) {
 }
 
 function sayHiToGrandma(string) {
-  var uppercase = "HELLO!", lowercase = "hello!", loveYouGrandma = "I love you, Grandma.";
   switch (string) {
-    case lowercase:
+    case "hello!":
       return "I can\'t hear you!"
-    case uppercase:
+    case "HELLO!":
       return "YES INDEED";
-    case loveYouGrandma:
+    case "I love you, Grandma.":
       return "I love you, too."
     default:
       console.log('Grandma might be gone.')
